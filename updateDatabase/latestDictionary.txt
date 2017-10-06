@@ -1,0 +1,16 @@
+{
+   "virusSignatures":[
+      {
+         "virusName":"trojan",
+         "signature":128
+      },
+      {
+         "virusName":"poto8",
+         "signature":256
+      },
+      {
+         "virusName":"badluck",
+         "signature":384
+      }
+   ]
+}
