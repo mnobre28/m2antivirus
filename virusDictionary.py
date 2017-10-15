@@ -48,6 +48,6 @@ class virusDictionary():
         print("Current threats: ")
         print(self.__virusList)
 
-    def checkIfIsThreat(self, threat):
+    def checkIfIsThreat(self, fileHexValue):
         print("TODO")
-        pass
+        return False

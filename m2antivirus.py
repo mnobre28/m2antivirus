@@ -20,30 +20,4 @@ for fileName in glob.glob('./myfiles/*'): #for each FILE in FOLDER...
             dataFromFile.append(line)
         print('file {0}: {1}', counter, dataFromFile)
     fileToAnalise.close()
-
-    #blockFromFile = fileToAnalise.read(os.stat(fileName).st_size) #gets file size
-    #fileInBinary = []
-    #for line in fileToAnalise:
-    #    print(line)
-    #    fileInBinary.append(line)
-    #print(fileInBinary)
-
-
-
-    #print('file size: ', os.stat(fileName).st_size)
-    #blockAsString = 0
-    #for ch in blockFromFile:
-        #print(ch)
-        #strTemp = hex(ord(ch))+"" #convert each character of the file (TODO?)
-        #strTemp = strTemp[2:]
-        #blockAsString += ch
-    #print(blockAsString) #print no resultado final
-    
-    
-
-
-
-#fileToAnalise = open('one.txt', 'r')
-#print fileToAnalise
-
 print("Finish")
