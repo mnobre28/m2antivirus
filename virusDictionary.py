@@ -49,5 +49,8 @@ class virusDictionary():
         print(self.__virusList)
 
     def checkIfIsThreat(self, fileHexValue):
-        print("TODO")
+        #print("checking if threat")
+        for virusvalue, virusname in self.__virusList.items():
+            if (virusvalue in fileHexValue):
+                return (virusvalue, virusname)
         return False

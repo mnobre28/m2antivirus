@@ -21,7 +21,7 @@ class fileLoader():
                 #print(hasher.hexdigest())
                 self.__listOfFiles.update({fileName:hasher.hexdigest()})
                 #print("adding {} file-hexcode combo to scan list".format({fileName:hasher.hexdigest()}))
-                time.sleep(1)
+                #time.sleep(1)
 
     def printListOfHexas(self):
         print(self.__listOfFiles)
