@@ -1,0 +1,19 @@
+{  "virusData": {
+      "version": [
+         {
+            "currentVersion": "1.0"
+         }
+      ],
+      "signatures": [
+         {
+            "076": "trojan"
+         },
+         {
+            "256": "poto8"
+         },
+         {
+            "384": "badluck"
+         }
+      ]
+   }
+}

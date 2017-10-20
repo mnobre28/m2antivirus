@@ -50,7 +50,7 @@ class virusDictionary():
 
     def checkIfIsThreat(self, fileHexValue):
         #print("checking if threat")
-        for virusvalue, virusname in self.__virusList.items():
-            if (virusvalue in fileHexValue):
-                return (virusvalue, virusname)
+        for virussignature, virusname in self.__virusList.items():
+            if (virussignature in fileHexValue): #if a known virus is present in the file hex code...
+                return (virussignature, virusname)
         return False
