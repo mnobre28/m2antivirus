@@ -17,6 +17,7 @@ class virusScanner():
         listOfFiles = self.__fileLoader.getListOfFiles()
         listOfInfectedFiles = {} #fileaddress and virusname
         #listOfViruses = []
+        print("\nStarting scan of {}".format(directory))
         for fileAddress,fileHexCode in listOfFiles.items():
             print("Checking {} for viruses...".format(fileAddress))
             time.sleep(1)
@@ -29,6 +30,7 @@ class virusScanner():
                 #listOfViruses.append(resultOfCheck[0]) #put virus name here
             else:
                 print("No threats found.")
+            print("Scan completed.")
         self.quarantineInfectedFiles(listOfInfectedFiles)
 
         #----------------------------------)
@@ -38,9 +40,10 @@ class virusScanner():
         for fileAddress, virusName in listOfInfectedFiles.items():
             print("Moving {} to quarantine: infected with {}".format(fileAddress, virusName))
             shutil.move(fileAddress, self.__quarantineDirectory)
-        print("TODO")
+        print("All infected files moved.")
 
 vs = virusScanner()
+vs.updateVirusDatabase()
 vs.scanDirectory()
 
-print("finished")
+print("Scan finished.")

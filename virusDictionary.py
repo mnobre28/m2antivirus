@@ -12,7 +12,7 @@ class virusDictionary():
         #self.printVirusDictionary()
 
     def loadVirusDictionary(self, directoryOfFileToLoad = os.path.normpath('./virusDatabase/virusDatabase.json')):
-        with open(directoryOfFileToLoad, "r") as file:
+        with open(directoryOfFileToLoad, "r") as file: #updating the list thats in memory
             temp = json.load(file)
             tempDictionary = dict(temp["virusData"]["signatures"][0])
             newestUpdateVersion = temp["virusData"]["version"][0]["currentVersion"]
@@ -25,12 +25,17 @@ class virusDictionary():
                 self.__version = temp["virusData"]["version"][0][
                     "currentVersion"]  # changes version to current loaded version
                 if (self.__version != "1.0"):
-                    print("Updating threat database...\n")
-                    time.sleep(3)
+                    print("Updating threat database...")
+                    time.sleep(1)
                     print("Updated to version: ", self.__version)
             else:
                 print("\nVirus database already up to date.\n")
         #----------------------------------)
+        file.close()
+        with open(self.__fileDirectory, "w") as file: #updating json file
+            json.dump(temp, file)
+        file.close()
+
 
     def updateVirusDictionary(self, directoryOfFileToLoad = os.path.normpath('./updateDatabase/updatedVirusDatabase.json')):
         self.loadVirusDictionary(directoryOfFileToLoad)

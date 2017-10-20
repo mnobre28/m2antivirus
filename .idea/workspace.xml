@@ -11,33 +11,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="m2antivirus.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2antivirus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fileLoader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileLoader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="465">
+              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
+                <element signature="e#324#958#0" expanded="false" />
                 <element signature="e#1000#1025#0" expanded="false" />
+                <element signature="e#1065#1090#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="virusScanner.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="virusScanner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/virusScanner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="330">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#378#418#0" expanded="false" />
               </folding>
@@ -48,23 +40,23 @@
       <file leaf-file-name="virusDatabaseORIGINAL.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/virusDatabase/virusDatabaseORIGINAL.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="virusDictionary.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="virusDictionary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/virusDictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="304">
+              <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
-                <element signature="e#704#1768#0" expanded="false" />
-                <element signature="e#1903#2079#0" expanded="false" />
-                <element signature="e#2125#2594#0" expanded="false" />
-                <element signature="e#2125#2191#0" expanded="false" />
+                <element signature="e#798#1765#0" expanded="false" />
+                <element signature="e#2309#2778#0" expanded="false" />
+                <element signature="e#2309#2375#0" expanded="false" />
+                <element signature="e#2833#3102#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,8 +75,8 @@
       <file leaf-file-name="virusDatabase.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/virusDatabase/virusDatabase.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="217">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -93,8 +85,8 @@
       <file leaf-file-name="updatedVirusDatabase.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/updateDatabase/updatedVirusDatabase.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="558">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -115,6 +107,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -125,9 +118,9 @@
         <option value="$PROJECT_DIR$/m2antivirus.py" />
         <option value="$PROJECT_DIR$/scanner.py" />
         <option value="$PROJECT_DIR$/fileLoader.py" />
-        <option value="$PROJECT_DIR$/virusDatabase/virusDatabase.json" />
         <option value="$PROJECT_DIR$/updateDatabase/updatedVirusDatabase.json" />
         <option value="$PROJECT_DIR$/virusDictionary.py" />
+        <option value="$PROJECT_DIR$/virusDatabase/virusDatabase.json" />
         <option value="$PROJECT_DIR$/virusScanner.py" />
       </list>
     </option>
@@ -165,16 +158,6 @@
               <item name="m2antivirus" type="b2602c69:ProjectViewProjectNode" />
               <item name="m2antivirus" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="m2antivirus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2antivirus" type="462c0819:PsiDirectoryNode" />
-              <item name="updateDatabase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="m2antivirus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2antivirus" type="462c0819:PsiDirectoryNode" />
-              <item name="virusDatabase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -182,17 +165,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Files\College\PObjetos\m2antivirus\myfiles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Files\College\PObjetos\m2antivirus\virusDatabase" />
       <recent name="D:\Files\College\PObjetos\m2antivirus\myfiles" />
       <recent name="D:\Files\College\PObjetos\m2antivirus\updateDatabase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Files\College\PObjetos\m2antivirus\myfiles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,13 +294,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34657836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34657836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -333,25 +316,87 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/m2antivirus.py">
+    <entry file="file://$PROJECT_DIR$/fileLoader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="465">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#324#958#0" expanded="false" />
+            <element signature="e#1000#1025#0" expanded="false" />
+            <element signature="e#1065#1090#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virusDatabase/virusDatabaseORIGINAL.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/virusScanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="e#378#418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10416">
+          <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virusDatabase/virusDatabase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateDatabase/updatedVirusDatabase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virusDictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="34" column="71" lean-forward="true" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+          <folding>
+            <element signature="e#798#1765#0" expanded="false" />
+            <element signature="e#2309#2778#0" expanded="false" />
+            <element signature="e#2309#2375#0" expanded="false" />
+            <element signature="e#2833#3102#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2antivirus.py" />
     <entry file="file://$PROJECT_DIR$/fileLoader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
+            <element signature="e#324#958#0" expanded="false" />
             <element signature="e#1000#1025#0" expanded="false" />
+            <element signature="e#1065#1090#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -361,10 +406,10 @@
         <state relative-caret-position="713">
           <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
           <folding>
-            <element signature="e#704#1768#0" expanded="false" />
-            <element signature="e#1903#2079#0" expanded="false" />
-            <element signature="e#2125#2594#0" expanded="false" />
-            <element signature="e#2125#2191#0" expanded="false" />
+            <element signature="e#798#1765#0" expanded="false" />
+            <element signature="e#2309#2778#0" expanded="false" />
+            <element signature="e#2309#2375#0" expanded="false" />
+            <element signature="e#2833#3102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -403,20 +448,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2antivirus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/m2antivirus.py" />
     <entry file="file://$PROJECT_DIR$/fileLoader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="868">
           <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
           <folding>
+            <element signature="e#324#958#0" expanded="false" />
             <element signature="e#1000#1025#0" expanded="false" />
+            <element signature="e#1065#1090#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -426,10 +466,10 @@
         <state relative-caret-position="620">
           <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
-            <element signature="e#704#1768#0" expanded="false" />
-            <element signature="e#1903#2079#0" expanded="false" />
-            <element signature="e#2125#2594#0" expanded="false" />
-            <element signature="e#2125#2191#0" expanded="false" />
+            <element signature="e#798#1765#0" expanded="false" />
+            <element signature="e#2309#2778#0" expanded="false" />
+            <element signature="e#2309#2375#0" expanded="false" />
+            <element signature="e#2833#3102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,20 +508,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2antivirus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/m2antivirus.py" />
     <entry file="file://$PROJECT_DIR$/fileLoader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
+            <element signature="e#324#958#0" expanded="false" />
             <element signature="e#1000#1025#0" expanded="false" />
+            <element signature="e#1065#1090#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -515,31 +550,24 @@
         <state relative-caret-position="589">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#704#1768#0" expanded="false" />
-            <element signature="e#1903#2079#0" expanded="false" />
-            <element signature="e#2125#2594#0" expanded="false" />
-            <element signature="e#2125#2191#0" expanded="false" />
+            <element signature="e#798#1765#0" expanded="false" />
+            <element signature="e#2309#2778#0" expanded="false" />
+            <element signature="e#2309#2375#0" expanded="false" />
+            <element signature="e#2833#3102#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2antivirus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/m2antivirus.py" />
     <entry file="file://$PROJECT_DIR$/virusDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1085">
           <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
-            <element signature="e#704#1768#0" expanded="false" />
-            <element signature="e#1903#2079#0" expanded="false" />
-            <element signature="e#2125#2594#0" expanded="false" />
-            <element signature="e#2125#2191#0" expanded="false" />
+            <element signature="e#798#1765#0" expanded="false" />
+            <element signature="e#2309#2778#0" expanded="false" />
+            <element signature="e#2309#2375#0" expanded="false" />
+            <element signature="e#2833#3102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,23 +580,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2antivirus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/m2antivirus.py" />
     <entry file="file://$PROJECT_DIR$/virusDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1085">
           <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
-            <element signature="e#704#1768#0" expanded="false" />
-            <element signature="e#1903#2079#0" expanded="false" />
-            <element signature="e#2125#2594#0" expanded="false" />
-            <element signature="e#2125#2191#0" expanded="false" />
+            <element signature="e#798#1765#0" expanded="false" />
+            <element signature="e#2309#2778#0" expanded="false" />
+            <element signature="e#2309#2375#0" expanded="false" />
+            <element signature="e#2833#3102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -603,71 +624,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="2846" column="11" lean-forward="true" selection-start-line="2846" selection-start-column="11" selection-end-line="2846" selection-end-column="11" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2antivirus.py" />
+    <entry file="file://$PROJECT_DIR$/fileLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#324#958#0" expanded="false" />
+            <element signature="e#1000#1025#0" expanded="false" />
+            <element signature="e#1065#1090#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/updateDatabase/updatedVirusDatabase.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="558">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2antivirus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileLoader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#1000#1025#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virusScanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#378#418#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/virusDatabase/virusDatabaseORIGINAL.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="217">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/virusDatabase/virusDatabase.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="217">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/virusDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="304">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
-            <element signature="e#704#1768#0" expanded="false" />
-            <element signature="e#1903#2079#0" expanded="false" />
-            <element signature="e#2125#2594#0" expanded="false" />
-            <element signature="e#2125#2191#0" expanded="false" />
+            <element signature="e#798#1765#0" expanded="false" />
+            <element signature="e#2309#2778#0" expanded="false" />
+            <element signature="e#2309#2375#0" expanded="false" />
+            <element signature="e#2833#3102#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virusScanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#378#418#0" expanded="false" />
           </folding>
         </state>
       </provider>
