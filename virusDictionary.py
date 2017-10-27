@@ -11,7 +11,7 @@ class virusDictionary():
         self.loadVirusDictionary(self.__fileDirectory) #load outdated virus database
         #self.printVirusDictionary()
 
-    def loadVirusDictionary(self, directoryOfFileToLoad = os.path.normpath('./virusDatabase/virusDatabase.json')):
+    def loadVirusDictionary(self, directoryOfFileToLoad = os.path.normpath('./virusDatabase/virusDatabase.json'), mod = 0):
         with open(directoryOfFileToLoad, "r") as file: #updating the list thats in memory
             temp = json.load(file)
             tempDictionary = dict(temp["virusData"]["signatures"][0])
@@ -24,7 +24,7 @@ class virusDictionary():
                 self.__virusList = tempDictionary #loads the json virus database
                 self.__version = temp["virusData"]["version"][0][
                     "currentVersion"]  # changes version to current loaded version
-                if (self.__version != "1.0"):
+                if ((self.__version != "1.0") and (mod == 0)):
                     print("Updating threat database...")
                     time.sleep(1)
                     print("Updated to version: ", self.__version)
@@ -36,11 +36,8 @@ class virusDictionary():
             json.dump(temp, file)
         file.close()
 
-
     def updateVirusDictionary(self, directoryOfFileToLoad = os.path.normpath('./updateDatabase/updatedVirusDatabase.json')):
         self.loadVirusDictionary(directoryOfFileToLoad)
-        #only updates the dictionary thats running right now!
-        #the old database will be loaded when the program restarts
 
     def printVirusDictionary(self):
         #print(self.__virusList["virusData"]["version"]["currentVersion"])
@@ -59,3 +56,6 @@ class virusDictionary():
             if (virussignature in fileHexValue): #if a known virus is present in the file hex code...
                 return (virussignature, virusname)
         return False
+
+    def undoUpdate(self, directoryOfFileToLoad = os.path.normpath('./virusDatabase/virusDatabaseORIGINAL.json')):
+        self.loadVirusDictionary(directoryOfFileToLoad, 1)

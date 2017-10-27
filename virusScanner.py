@@ -12,6 +12,9 @@ class virusScanner():
     def updateVirusDatabase(self):
         self.__virusDict.updateVirusDictionary()
 
+    def undoUpdateVirusDatabase(self):
+        self.__virusDict.undoUpdate()
+
     def scanDirectory(self, directory = './myfiles/*'):
         self.__fileLoader.loadFilesFromDir(directory) #using default myfiles dir
         listOfFiles = self.__fileLoader.getListOfFiles()
@@ -42,8 +45,27 @@ class virusScanner():
             shutil.move(fileAddress, self.__quarantineDirectory)
         print("All infected files moved.")
 
-vs = virusScanner()
-vs.updateVirusDatabase()
-vs.scanDirectory()
+    def undoQuarantine(self):
+        tempFileLoader = fileLoader.fileLoader()
+        tempFileLoader.loadFilesFromDir('./quarantine/*')  # using default myfiles dir
+        listOfFiles = tempFileLoader.getListOfFiles()
+        for fileAddress, fileHexCode in listOfFiles.items():
+            print("Moving {} back to MyFiles.".format(fileAddress))
+            shutil.move(fileAddress, './myfiles/')
+        print("Quarantile folder clear.")
 
-print("Scan finished.")
+    def showQuarantine(self):
+        tempFileLoader = fileLoader.fileLoader()
+        tempFileLoader.loadFilesFromDir('./quarantine/*')  # using default myfiles dir
+        listOfFiles = tempFileLoader.getListOfFiles()
+        print("\nFiles quarantined:")
+        count = 0
+        for fileAddress, fileHexCode in listOfFiles.items():
+            count += 1
+            print("{}. {}".format(count, fileAddress))
+        if (count == 0):
+            print("No files in quarantine.")
+        print("\n")
+
+
+
