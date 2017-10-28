@@ -29,7 +29,7 @@ def updateVirusDatabase():
 
 #case 4
 def showVirusDictionary():
-    virusDictionary.printVirusDictionary()
+    virusScanner.printVirusDictionary()
 
 #case 0
 def restoreDefaults():
@@ -37,7 +37,7 @@ def restoreDefaults():
     #clear quarantine
     virusScanner.undoQuarantine()
     #undo update
-    #virusScanner.undoUpdateVirusDatabase() TODO
+    virusScanner.undoUpdateVirusDatabase()
 
 #switch
 def switcher(number):
@@ -52,14 +52,10 @@ def switcher(number):
     elif (number == "0"):
         restoreDefaults()
 
+#se o antivirus nao encontrar um virus em ./quarantine\Chrysanthemum.jpg
+#pode ser por causa das classes os? o programa foi feito em windows
 while (True):
     userInput = input(textMainMenu)
     switcher(userInput)
     userInput = input(textReturn)
 
-
-
-
-
-#n = input("Greetings! Type a number:")
-#print(n)

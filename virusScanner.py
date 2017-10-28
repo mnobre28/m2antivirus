@@ -14,6 +14,10 @@ class virusScanner():
 
     def undoUpdateVirusDatabase(self):
         self.__virusDict.undoUpdate()
+        print("Antivirus version is now 1.0.")
+
+    def printVirusDictionary(self):
+        self.__virusDict.printVirusDictionary()
 
     def scanDirectory(self, directory = './myfiles/*'):
         self.__fileLoader.loadFilesFromDir(directory) #using default myfiles dir
@@ -66,6 +70,5 @@ class virusScanner():
         if (count == 0):
             print("No files in quarantine.")
         print("\n")
-
 
 
